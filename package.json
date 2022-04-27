@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@airtable/blocks": "^1.5.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^17",
+    "react-dom": "^17"
   },
   "devDependencies": {
     "@airtable/blocks-testing": "^0.0.4",
@@ -20,7 +20,7 @@
     "@babel/preset-react": "^7.16.7",
     "@sheerun/mutationobserver-shim": "^0.3.3",
     "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^13.1.1",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^14.1.1",
     "eslint": "^8.14.0",
     "eslint-plugin-react": "^7.14.3",

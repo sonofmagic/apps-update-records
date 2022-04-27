@@ -1,10 +1,13 @@
-import React from 'react';
+import '@testing-library/jest-dom';
+import * as React from 'react';
 import {act} from 'react-dom/test-utils';
-import TestDriver from '@airtable/blocks-testing';
-import {render, screen, waitFor, getByRole} from '@testing-library/react';
+ import TestDriver from '@airtable/blocks-testing';
+ import {render, screen, waitFor, getByRole} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import recordListFixture from './fixtures/simple_record_list';
 import UpdateRecordsApp from '../frontend/UpdateRecordsApp';
+
+
 
 describe('UpdateRecordsApp', () => {
     const mutations = [];

@@ -7,29 +7,29 @@ specifiers:
   '@babel/preset-react': ^7.16.7
   '@sheerun/mutationobserver-shim': ^0.3.3
   '@testing-library/jest-dom': ^5.11.6
-  '@testing-library/react': ^13.1.1
+  '@testing-library/react': ^12.1.2
   '@testing-library/user-event': ^14.1.1
   eslint: ^8.14.0
   eslint-plugin-react: ^7.14.3
   eslint-plugin-react-hooks: ^4.5.0
-  jest: 27.5.1
+  jest: ^27.5.1
   jsdom: ^19.0.0
   mime-types: ^2.1.35
-  react: ^18.1.0
-  react-dom: ^18.1.0
+  react: ^17
+  react-dom: ^17
 
 dependencies:
-  '@airtable/blocks': 1.11.1_react-dom@18.1.0+react@18.1.0
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
+  '@airtable/blocks': 1.11.1_react-dom@17.0.2+react@17.0.2
+  react: 17.0.2
+  react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
-  '@airtable/blocks-testing': 0.0.4_dff61cbf5c140f731993d277e71c1667
+  '@airtable/blocks-testing': 0.0.4_a5e3fff349b2870bae118b5d370a7f71
   '@babel/preset-env': 7.16.11
   '@babel/preset-react': 7.16.7
   '@sheerun/mutationobserver-shim': 0.3.3
   '@testing-library/jest-dom': 5.16.4
-  '@testing-library/react': 13.1.1_react-dom@18.1.0+react@18.1.0
+  '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 14.1.1
   eslint: 8.14.0
   eslint-plugin-react: 7.29.4_eslint@8.14.0
@@ -40,14 +40,14 @@ devDependencies:
 
 packages:
 
-  /@airtable/blocks-testing/0.0.4_dff61cbf5c140f731993d277e71c1667:
+  /@airtable/blocks-testing/0.0.4_a5e3fff349b2870bae118b5d370a7f71:
     resolution: {integrity: sha512-1jl3x5ZG0AB8dnB9d1oJm5hswGKcz+vd4XDA1Zi25RjPDray5YXMI0kEwEhTvxxUWTRGWaYiBOQ1x7ab634XbA==}
     peerDependencies:
       '@airtable/blocks': ^1.5.1
       react: ^16.8.0
       react-dom: ^16.8.0
     dependencies:
-      '@airtable/blocks': 1.11.1_react-dom@18.1.0+react@18.1.0
+      '@airtable/blocks': 1.11.1_react-dom@17.0.2+react@17.0.2
       '@airtable/eslint-plugin-blocks': 1.0.3
       '@babel/runtime': 7.17.9
       '@types/lodash.omit': 4.5.7
@@ -57,12 +57,12 @@ packages:
       '@types/semver': 7.3.9
       '@types/styled-system': 5.1.15
       core-js: 3.22.2
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
       semver: 7.3.7
     dev: true
 
-  /@airtable/blocks/1.11.1_react-dom@18.1.0+react@18.1.0:
+  /@airtable/blocks/1.11.1_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-34+1jBXxX+iRKWFoWi7aQeyG/C/2LCew/nDthmQRAfD1S84W/ME6b15bpDjIpAeDOJ72p+qQNyo7zK6Y78k8Rw==}
     peerDependencies:
       react: ^16.8.0
@@ -85,10 +85,10 @@ packages:
       hoist-non-react-statics: 3.3.2
       lodash.omit: 4.5.0
       prop-types: 15.7.2
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
-      react-window: 1.8.5_react-dom@18.1.0+react@18.1.0
-      use-subscription: 1.7.0_react@18.1.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-window: 1.8.5_react-dom@17.0.2+react@17.0.2
+      use-subscription: 1.7.0_react@17.0.2
     dev: false
 
   /@airtable/eslint-plugin-blocks/1.0.3:
@@ -1711,18 +1711,18 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/13.1.1_react-dom@18.1.0+react@18.1.0:
-    resolution: {integrity: sha512-8mirlAa0OKaUvnqnZF6MdAh2tReYA2KtWVw1PKvaF5EcCZqgK5pl8iF+3uW90JdG5Ua2c2c2E2wtLdaug3dsVg==}
+  /@testing-library/react/12.1.5_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-OfTXCJUFgjd/digLUuPxa0+/3ZxsQmE7ub9kcbW/wi96Bh3o/p5vrETcBGfP17NWPGqeYYl5LTRpwyGoMC4ysg==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
+      react: <18.0.0
+      react-dom: <18.0.0
     dependencies:
       '@babel/runtime': 7.17.9
       '@testing-library/dom': 8.13.0
-      '@types/react-dom': 18.0.0
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      '@types/react-dom': 16.9.15
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     dev: true
 
   /@testing-library/user-event/14.1.1:
@@ -1784,7 +1784,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 16.14.25
+      '@types/react': 18.0.8
       hoist-non-react-statics: 3.3.2
     dev: false
 
@@ -1841,18 +1841,11 @@ packages:
     resolution: {integrity: sha512-PjWhZj54ACucQX2hDmnHyqHz+N2On5g3Lt5BeNn+wy067qvOokVSQw1nEog1XGfvLYrSl3cyrdebEfjQQNXD3A==}
     dependencies:
       '@types/react': 16.14.25
-    dev: false
-
-  /@types/react-dom/18.0.0:
-    resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
-    dependencies:
-      '@types/react': 18.0.8
-    dev: true
 
   /@types/react-window/1.8.5:
     resolution: {integrity: sha512-V9q3CvhC9Jk9bWBOysPGaWy/Z0lxYcTXLtLipkt2cnRj1JOSFNF7wqGpkScSXMgBwC+fnVRg/7shwgddBG5ICw==}
     dependencies:
-      '@types/react': 16.14.25
+      '@types/react': 18.0.8
     dev: false
 
   /@types/react/16.14.25:
@@ -1868,7 +1861,7 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.0.11
-    dev: true
+    dev: false
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
@@ -4283,14 +4276,15 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/17.0.2_react@17.0.2:
+    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
     peerDependencies:
-      react: ^18.1.0
+      react: 17.0.2
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      object-assign: 4.1.1
+      react: 17.0.2
+      scheduler: 0.20.2
     dev: false
 
   /react-is/16.13.1:
@@ -4300,7 +4294,7 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-window/1.8.5_react-dom@18.1.0+react@18.1.0:
+  /react-window/1.8.5_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-HeTwlNa37AFa8MDZFZOKcNEkuF2YflA0hpGPiTT9vR7OawEt+GZbfM6wqkBahD3D3pUjIabQYzsnY/BSJbgq6Q==}
     engines: {node: '>8.0.0'}
     peerDependencies:
@@ -4309,15 +4303,16 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.9
       memoize-one: 5.2.1
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/17.0.2:
+    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+      object-assign: 4.1.1
     dev: false
 
   /redent/3.0.0:
@@ -4447,10 +4442,11 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.20.2:
+    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
     dependencies:
       loose-envify: 1.4.0
+      object-assign: 4.1.1
     dev: false
 
   /semver/6.3.0:
@@ -4794,21 +4790,21 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-subscription/1.7.0_react@18.1.0:
+  /use-subscription/1.7.0_react@17.0.2:
     resolution: {integrity: sha512-87x6MjiIVE/BWqtxfiRvM6jfvGudN+UeVOnWi7qKYp2c0YJn5+Z5Jt0kZw6Tt+8hs7kw/BWo2WBhizJSAZsQJA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 18.1.0
-      use-sync-external-store: 1.1.0_react@18.1.0
+      react: 17.0.2
+      use-sync-external-store: 1.1.0_react@17.0.2
     dev: false
 
-  /use-sync-external-store/1.1.0_react@18.1.0:
+  /use-sync-external-store/1.1.0_react@17.0.2:
     resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 18.1.0
+      react: 17.0.2
     dev: false
 
   /v8-compile-cache/2.3.0:
